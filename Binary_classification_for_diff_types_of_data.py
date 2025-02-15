@@ -92,3 +92,12 @@ new_data = pd.DataFrame({
 # Make prediction
 prediction = loaded_model.predict(new_data)
 print("Predicted Class:", prediction[0])  # Output: 0 or 1
+
+### Key Features of This End-to-End ML System
+# ✔ Handles different data types (Numerical, Categorical, Text)
+# ✔ Uses preprocessing pipelines (Imputation, Scaling, Encoding, TF-IDF)
+# ✔ Splits data into training and testing
+# ✔ Trains a RandomForestClassifier
+# ✔ Evaluates model performance using accuracy and classification report
+# ✔ Saves and loads the trained model for deployment
+# ✔ Predicts new unseen data
