@@ -19,3 +19,21 @@ Handle missing values, normalize numerical data, and encode categorical data
 Extract features from text data (e.g., TF-IDF, embeddings)
 Train a model (Logistic Regression, Decision Trees, or any other model)
 Evaluate performance using classification metrics
+
+
+Problem 2
+
+Problem Statement
+We will build a binary classification model to predict whether a customer will buy a product (target: 1 or 0) based on their age, income, city, education level, and job description.
+
+Pipeline Overview
+Load Data
+Preprocessing
+Handle missing values
+Encode categorical features
+Extract features from text
+Scale numerical features
+Train-Test Split
+Model Training
+Evaluation
+Deploying the Model for Prediction
