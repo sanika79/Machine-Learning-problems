@@ -21,3 +21,10 @@ def knn_predict(X_train, y_train, X_test, k):
         predictions.append(max(set(labels), key=labels.count))
 
     return predictions
+
+X_train = [[1,2], [2,3], [3,4], [8,7], [8,8]]
+y_train = [0, 0, 0, 1, 1]
+
+X_test = [[2,2], [9,9]]
+
+print(knn_predict(X_train, y_train, X_test, k=3))
